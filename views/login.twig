@@ -1,0 +1,13 @@
+{% include 'template.twig' %}
+
+<div id="container">
+  {% block container %}
+  <form id="formularioLogin" action="{{action}}" method="post" class="cssFormLogin">
+    <h1 id="fh5co-logo"><a href="{{app.url_generator.generate('index')}}"><span>DEV</span> Arthur</a></h1>
+    <input type="text" value="{{nome}}" placeholder="Usuário" class="inputCss" required><br />
+    <input type="password" value="{{password}}" placeholder="Password" class="inputCss" required  ><br />
+    <input type="submit" value="Entrar" class="submitLogar btn btn-primary">
+  </form>
+  {% endblock %}
+
+</div>

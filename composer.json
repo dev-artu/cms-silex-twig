@@ -1,0 +1,14 @@
+{
+    "name": "arthur/admin-silex-twig",
+    "description": "CMS usando silex e twig",
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.24"
+    },
+    "authors": [
+        {
+            "name": "Arthur Wagenknecht",
+            "email": "arthur_2@live.com"
+        }
+    ]
+}
