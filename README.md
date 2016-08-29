@@ -1,1 +1,1 @@
-# CMS feito com Silex w Twig
+# CMS feito com Silex e Twig.
